@@ -1,0 +1,25 @@
+# Visual Studio et compilation .NET Framework
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+TestResults/
+packages/
+
+# Configurations personnelles, traces et bases locales
+*.local.config
+*.local.json
+.env
+.env.*
+!.env.example
+*.log
+*.mdf
+*.ldf
+*.bak
+
+# Système
+Thumbs.db
+.DS_Store
